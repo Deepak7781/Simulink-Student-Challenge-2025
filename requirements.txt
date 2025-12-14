@@ -1,0 +1,20 @@
+# MATLAB Core
+MATLAB R2024b or later (required for UAV Toolbox updates)
+
+# Essential Toolboxes
+- UAV Toolbox v24.2 (drone dynamics, scenarios, sensors)
+- Computer Vision Toolbox (crack detection/segmentation)
+- Robotics System Toolbox (swarm coordination, flocking)
+- Simscape Multibody (3D world modeling, meshes/STLs)
+- Deep Learning Toolbox (ML for CNN crack classification)
+- Control System Toolbox (LQR/PID controllers)
+- Mapping Toolbox (terrain/positioning, optional for advanced viz)
+
+# External Data (Download Manually)
+- Kaggle Concrete Crack Images Dataset (subset to data/crack_images/; ~100 images for training)
+- Thingiverse STLs (e.g., bridge/building models to data/scenarios/)
+
+# Notes
+- Student license covers all toolboxes.
+- Verify: Run 'ver' in MATLAB Command Window.
+- No additional pip/R packages needed (pure MATLAB/Simulink).

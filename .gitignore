@@ -1,0 +1,10 @@
+# MATLAB/Simulink Essentials
+slprj/                  # Simulink caches (huge, auto-regen)
+*.slx~                  # Model backups
+*.m~                    # Script backups
+*.mlx                   # Live Scripts
+*.fig                   # Figure backups
+
+# OS Junk
+.DS_Store               # macOS
+Thumbs.db               # Windows
